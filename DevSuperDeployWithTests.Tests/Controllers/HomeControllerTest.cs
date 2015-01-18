@@ -22,6 +22,7 @@ namespace DevSuperDeployWithTests.Tests.Controllers
             ViewResult result = controller.Index() as ViewResult;
 
             // Assert
+            Assert.Fail("I broke this!");
             Assert.IsNotNull(result);
         }
 
